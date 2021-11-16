@@ -78,7 +78,7 @@ img {
     img{width: 80px;
         height: 80px;}
     
-    body, h3{
+    body, h3, h1{
             font-size: small;
             }
     #lezioni .row>.left,
@@ -86,9 +86,21 @@ img {
         width: 20%;
     }
         
-    
-    
-    
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 13%;
+    }
 
+    h1{
+        text-align: left;
+        margin-left:150px;
+    }
+    
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 40%;
+    }  
 
 }
